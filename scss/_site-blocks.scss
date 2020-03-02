@@ -11,7 +11,7 @@
 		height: 100%;
 		width: 100%;
 		background: #222;
-		opacity: .2;
+		opacity: .7;
 		border-bottom-right-radius: 0px;
 		background-size: cover;
 		background-position: center;
@@ -40,7 +40,7 @@
 	a {
 		display: inline-block;
 		color: rgb(189, 189, 189);
-
+		
 		&:hover {
 			color: $primary;
 		}
@@ -163,7 +163,7 @@
 				a {
 					font-size: 18px;
 					font-weight: bold;
-
+					
 					color: rgb(48, 48, 48);
 					&:hover {
 						color: $primary;
@@ -229,11 +229,11 @@
 .hero-slide {
 	position: relative;
 	.owl-nav {
-
+		
 		.owl-prev,
 		.owl-next {
 			position: absolute;
-			top: 50%;
+			top: 50%;		
 			text-align: center;
 			width: 40px;
 			height: 40px;
@@ -281,17 +281,17 @@
 
 .owl-slide-3, .owl-slide {
 	position: relative;
-
+	
 	.owl-stage {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 	.owl-nav {
-
+		
 		.owl-prev,
 		.owl-next {
 			position: absolute;
-			top: 50%;
+			top: 50%;		
 			text-align: center;
 			width: 40px;
 			height: 40px;
@@ -364,7 +364,7 @@
 			position: absolute;
 			top: -20px;
 			left: 0;
-
+			
 		}
 		&:before, &:after {
 			content: "";
@@ -377,13 +377,13 @@
 			transform: scaleY(.5774) rotate(-45deg);
 			background-color: inherit;
 			left: 14.06px;
-
+			
 		}
 		&:before {
 			top: -33.94px;
 		}
 		&:after {
-			bottom: -33.94px;
+			bottom: -33.94px;	
 		}
 	}
 
@@ -416,8 +416,8 @@
 	}
 	.category {
 		background: $primary;
-
-
+		
+		
 		padding: 20px;
 		h3 {
 			color: $white;
@@ -427,10 +427,10 @@
 	}
 	.price {
 		position: absolute;
-		bottom: 0;
+		bottom: 0;	
 		right: 0;
 		transform: translatey(-100%);
-		padding: 10px 20px;
+		padding: 10px 20px;	
 		background: #183661;
 		color: $white;
 	}
@@ -470,7 +470,7 @@
 	}
 	ul {
 		li {
-
+			
 		}
 	}
 	a {
@@ -508,7 +508,7 @@
 		h2, p {
 			color: $white;
 		}
-
+		
 	}
 	.form-control {
 		height: auto!important;
@@ -563,7 +563,7 @@
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
 	z-index: 2000;
   }
-
+  
   #loader.fullscreen {
 	padding: 0;
 	left: 0;
@@ -578,7 +578,7 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
   }
-
+  
   #loader.show {
 	-webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
 	-o-transition: opacity .4s ease-out, visibility 0s linear 0s;
@@ -586,7 +586,7 @@
 	visibility: visible;
 	opacity: 1;
   }
-
+  
   #loader .circular {
 	-webkit-animation: loader-rotate 2s linear infinite;
 	animation: loader-rotate 2s linear infinite;
@@ -598,7 +598,7 @@
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg);
   }
-
+  
   #loader .path {
 	stroke-dasharray: 1, 200;
 	stroke-dashoffset: 0;
@@ -606,21 +606,21 @@
 	animation: loader-dash 1.5s ease-in-out infinite;
 	stroke-linecap: round;
   }
-
+  
   @-webkit-keyframes loader-rotate {
 	100% {
 	  -webkit-transform: rotate(360deg);
 	  transform: rotate(360deg);
 	}
   }
-
+  
   @keyframes loader-rotate {
 	100% {
 	  -webkit-transform: rotate(360deg);
 	  transform: rotate(360deg);
 	}
   }
-
+  
   @-webkit-keyframes loader-dash {
 	0% {
 	  stroke-dasharray: 1, 200;
@@ -635,7 +635,7 @@
 	  stroke-dashoffset: -136px;
 	}
   }
-
+  
   @keyframes loader-dash {
 	0% {
 	  stroke-dasharray: 1, 200;
