@@ -627,19 +627,19 @@ h1, h2, h3, h4, h5,
       right: 0;
       bottom: 0;
       background: #183661;
-      opacity: .9;
+      opacity: .6;
       z-index: 0; }
     .section-bg.style-1 > .container {
       z-index: 2; }
     .section-bg.style-1 .icon {
       font-size: 3.5rem;
-      color: #e41e59; }
+      color: black; }
     .section-bg.style-1 h3 {
       font-size: 20px;
-      color: #e41e59;
+      color: black;
       margin-bottom: 30px; }
     .section-bg.style-1 p {
-      color: #7697c6; }
+      color: black; }
 
 .news-updates {
   padding: 5rem 0; }
