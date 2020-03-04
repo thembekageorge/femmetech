@@ -1,9 +1,9 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: gray;
+  color: #000000;
   font-weight: 300;
-  font-size: 1.1rem; }
+  font-size: 1.2rem; }
 
 ::-moz-selection {
   background: #000;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5,
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      opacity: .6; }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -608,7 +608,7 @@ h1, h2, h3, h4, h5,
     display: inline-block;
     border-bottom: 4px solid #e41e59; }
   .section-title-underline.style-2 {
-    color: #fff; }
+    color: #212529; }
     .section-title-underline.style-2 span {
       border-color: #e41e59; }
 
@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       right: 0;
       bottom: 0;
-      background: #183661;
+      background: #E14463;
       opacity: .6;
       z-index: 0; }
     .section-bg.style-1 > .container {
